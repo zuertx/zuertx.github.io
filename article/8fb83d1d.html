@@ -26,7 +26,7 @@
   <meta name="description" content="常见科学上网客户端汇总">
 <meta property="og:type" content="article">
 <meta property="og:title" content="常见科学上网客户端">
-<meta property="og:url" content="https://zuertx.tk/2020/06/13/fanqiang/index.html">
+<meta property="og:url" content="https://zuertx.tk/article/8fb83d1d.html">
 <meta property="og:site_name" content="Zuertx&#39;s Blog">
 <meta property="og:description" content="常见科学上网客户端汇总">
 <meta property="og:locale" content="zh_CN">
@@ -38,7 +38,7 @@
 <meta property="article:tag" content="v2ray">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://zuertx.tk/2020/06/13/fanqiang/">
+<link rel="canonical" href="https://zuertx.tk/article/8fb83d1d.html">
 
 
 <script id="page-configurations">
@@ -212,7 +212,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://zuertx.tk/2020/06/13/fanqiang/">
+    <link itemprop="mainEntityOfPage" href="https://zuertx.tk/article/8fb83d1d.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -678,7 +678,7 @@ NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
       repo        : 'zuertx.github.io',
       owner       : 'zuertx',
       admin       : ['zuertx'],
-      id          : '397901faed0233fbed510a9aabe46273',
+      id          : '20de2095cd5332dd970b2d3baeb3a973',
         language: 'zh-CN',
       distractionFreeMode: true
     });
@@ -687,5 +687,26 @@ NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
 });
 </script>
 
-</body>
+
+        <script src="//cdn.jsdelivr.net/npm/js-base64/base64.min.js"></script>
+        <script>
+        const hasAttr = (e,a) => a.some(_=> e.attr(_)!==undefined);
+        $('a').each(function() {
+          const $this = $(this);
+          if(hasAttr($this,["data-fancybox","ignore-external-link"])) return;
+          const href = $this.attr('href');
+          if (href && href.match('^((http|https|thunder|qqdl|ed2k|Flashget|qbrowser|ftp|rtsp|mms)://)')) {
+            const strs = href.split('/');
+            if (strs.length >= 3) {
+                const host = strs[2];
+                if (host !== 'https://zuertx.tk/' || window.location.host) {
+                    $this.attr('href', '/go.html?u='+Base64.encode(href)+'').attr('rel', 'external nofollow noopener noreferrer');
+                    if (true) {
+                        $this.attr('target', '_blank');
+                    }
+                }
+            }
+          }
+        });
+        </script></body>
 </html>

@@ -204,7 +204,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://zuertx.tk/2020/06/13/fanqiang/">
+    <link itemprop="mainEntityOfPage" href="https://zuertx.tk/article/8fb83d1d.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -218,7 +218,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/06/13/fanqiang/" class="post-title-link" itemprop="url">常见科学上网客户端</a>
+            <a href="/article/8fb83d1d.html" class="post-title-link" itemprop="url">常见科学上网客户端</a>
         </h2>
 
         <div class="post-meta">
@@ -252,7 +252,7 @@
           <h1 id="常见科学上网客户端汇总"><a href="#常见科学上网客户端汇总" class="headerlink" title="常见科学上网客户端汇总"></a>常见科学上网客户端汇总</h1>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2020/06/13/fanqiang/#more" rel="contents">
+              <a class="btn" href="/article/8fb83d1d.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -485,5 +485,26 @@
   
 
 
-</body>
+
+        <script src="//cdn.jsdelivr.net/npm/js-base64/base64.min.js"></script>
+        <script>
+        const hasAttr = (e,a) => a.some(_=> e.attr(_)!==undefined);
+        $('a').each(function() {
+          const $this = $(this);
+          if(hasAttr($this,["data-fancybox","ignore-external-link"])) return;
+          const href = $this.attr('href');
+          if (href && href.match('^((http|https|thunder|qqdl|ed2k|Flashget|qbrowser|ftp|rtsp|mms)://)')) {
+            const strs = href.split('/');
+            if (strs.length >= 3) {
+                const host = strs[2];
+                if (host !== 'https://zuertx.tk/' || window.location.host) {
+                    $this.attr('href', '/go.html?u='+Base64.encode(href)+'').attr('rel', 'external nofollow noopener noreferrer');
+                    if (true) {
+                        $this.attr('target', '_blank');
+                    }
+                }
+            }
+          }
+        });
+        </script></body>
 </html>
