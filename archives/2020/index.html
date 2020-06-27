@@ -43,6 +43,39 @@
     lang   : 'zh-CN'
   };
 </script>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    'use strict';
+    
+      if (NexT.utils.hasMobileUA()) return;
+    
+    let time, hidden, visible, title = document.title;
+    let favicon = document.querySelector('link[rel="icon"]');
+    
+      hidden = ["╭(°A°`)╮ 页面崩溃啦 ~","死鬼去哪里了！"];
+      visible = ["(ฅ>ω<*ฅ) 噫又好了~","哼哼哼，回来就好~"];
+    
+    let random = t => t[Math.floor(Math.random() * t.length)];
+    const change = () => {
+      if (document.hidden) {
+        favicon.setAttribute('href', '/images/favicon-32x32-next.png');
+        
+          document.title = random(hidden);
+        
+        clearTimeout(time);
+      } else {
+        favicon.setAttribute('href', '/images/favicon-32x32-next.png');
+        
+          document.title = random(visible);
+        
+        time = setTimeout(() => {
+          document.title = title;
+        }, 2019);
+      }
+    }
+    document.addEventListener('visibilitychange', change, false);
+  });
+</script>
 
   <title>归档 | Zuertx's Blog</title>
   
@@ -230,8 +263,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/artcles/8fb83d1d.html" itemprop="url">
-            <span itemprop="name">常见科学上网客户端</span>
+          <a class="post-title-link" href="/artcles/5d03bfa.html" itemprop="url">
+            <span itemprop="name">测试用页面</span>
           </a>
       </div>
 
@@ -250,8 +283,8 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/artcles/5d03bfa.html" itemprop="url">
-            <span itemprop="name">测试用页面</span>
+          <a class="post-title-link" href="/artcles/8fb83d1d.html" itemprop="url">
+            <span itemprop="name">常见科学上网客户端</span>
           </a>
       </div>
 
@@ -368,6 +401,38 @@
         </li>
     </ul>
   </div>
+<!-- 一言API -->
+<p></p>
+
+<!-- hitokoto -->
+<div class="hitokoto-title">
+	<i class="fa fa-paragraph"></i>
+	<b>一言</b>
+</div>
+
+<div id="hitokoto">:D 获取中...</div>
+<i id="hitofrom">:D 获取中...</i>
+
+<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+<script>
+  fetch('https://v1.hitokoto.cn')
+    .then(function (res){
+      return res.json();
+    })
+    .then(function (data) {
+      var hitokoto = document.getElementById('hitokoto');
+      hitokoto.innerText = '\xa0\xa0\xa0\xa0\xa0\xa0\xa0' + data.hitokoto;
+      var hitofrom = document.getElementById('hitofrom');
+      hitofrom.innerText = "——" + data.from + '\xa0'; 
+    })
+    .catch(function (err) {
+      console.error(err);
+    })
+</script>
+
+<br>
+
 
 
     <div class="links-of-blogroll motion-element links-of-blogroll-block">
@@ -695,8 +760,7 @@ if(canvas.getContext){
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     <span title="站点阅读时长">2 分钟</span>
-</div><script color="0,0,255" opacity="0.5" zIndex="-1" count="99" src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1/dist/canvas-nest.js"></script>
-
+</div>
 
         
 <div class="busuanzi-count">
