@@ -1318,7 +1318,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #7df73b;
+  background: #49ffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2615,4 +2615,10 @@ embed {
   float: right;
   font-family: "Microsoft YaHei";
   font-size: 10px;
+}
+#days {
+  display: block;
+  color: #07b39b;
+  font-size: 13px;
+  margin-top: 15px;
 }
