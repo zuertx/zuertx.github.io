@@ -27,3 +27,25 @@ icu: 67.1
 tz: 2019c
 unicode: 13.0
 ```
+使用插件：
+```
++-- hexo@4.2.1
++-- hexo-abbrlink@2.0.5
++-- hexo-deployer-git@2.1.0
++-- hexo-external-link@1.0.8
++-- hexo-generator-archive@1.0.0
++-- hexo-generator-baidu-sitemap@0.1.6
++-- hexo-generator-category@1.0.0
++-- hexo-generator-feed@2.2.0
++-- hexo-generator-index@1.0.0
++-- hexo-generator-index-pin-top@0.2.2
++-- hexo-generator-searchdb@1.3.0
++-- hexo-generator-sitemap@2.0.0
++-- hexo-generator-tag@1.0.0
++-- hexo-git-backup@0.1.3
++-- hexo-renderer-ejs@1.0.0
++-- hexo-renderer-marked@2.0.0
++-- hexo-renderer-pandoc@0.3.0
++-- hexo-renderer-stylus@1.1.0
+`-- hexo-server@1.0.0
+```
