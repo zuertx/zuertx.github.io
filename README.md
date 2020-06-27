@@ -1,10 +1,10 @@
 # [Zuertx's Blog](https://zuertx.tk)
 
-本博客使用[Hexo](https://github.com/hexojs/hexo)博客系统，选用[NexT](https://github.com/next-theme/hexo-theme-next)主题.
+本博客使用[Hexo](https://github.com/hexojs/hexo)博客系统，选用[NexT](https://github.com/theme-next/hexo-theme-next)主题.
 
 本博客使用的相关模块版本：
 ```
-NexT: 8.0.0-rc.3
+NexT: 7.8.0
 
 $ hexo -v
 hexo: 4.2.1
