@@ -29,10 +29,10 @@ unicode: 13.0
 ```
 使用插件及版本：
 ```
+hexo-site@0.0.0 F:\Zuertx's Blog
 +-- hexo@4.2.1
 +-- hexo-abbrlink@2.0.5
 +-- hexo-deployer-git@2.1.0
-+-- hexo-external-link@1.0.8
 +-- hexo-generator-archive@1.0.0
 +-- hexo-generator-baidu-sitemap@0.1.6
 +-- hexo-generator-category@1.0.0
@@ -42,10 +42,14 @@ unicode: 13.0
 +-- hexo-generator-sitemap@2.0.0
 +-- hexo-generator-tag@1.0.0
 +-- hexo-git-backup@0.1.3
++-- hexo-inject@1.0.0
++-- hexo-leancloud-counter-security@1.5.0
++-- hexo-next-title@0.1.0
++-- hexo-related-popular-posts@4.0.0
 +-- hexo-renderer-ejs@1.0.0
-+-- hexo-renderer-marked@2.0.0
 +-- hexo-renderer-pandoc@0.3.0
 +-- hexo-renderer-stylus@1.1.0
 +-- hexo-server@1.0.0
-`-- hexo-symbols-count-time@0.7.1
++-- hexo-symbols-count-time@0.7.1
+`-- next-util@1.0.0
 ```
