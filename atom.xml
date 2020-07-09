@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zuertx.tk/"/>
-  <updated>2020-07-06T07:02:28.391Z</updated>
+  <updated>2020-07-08T09:20:37.697Z</updated>
   <id>https://zuertx.tk/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>常见科学上网客户端</title>
+    <link href="https://zuertx.tk/artcles/8fb83d1d.html"/>
+    <id>https://zuertx.tk/artcles/8fb83d1d.html</id>
+    <published>2020-06-13T04:55:25.000Z</published>
+    <updated>2020-07-08T09:20:37.697Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;常见科学上网客户端汇总&quot;&gt;常见科学上网客户端汇总&lt;/h1&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="ss" scheme="https://zuertx.tk/tags/ss/"/>
+    
+      <category term="ssr" scheme="https://zuertx.tk/tags/ssr/"/>
+    
+      <category term="v2ray" scheme="https://zuertx.tk/tags/v2ray/"/>
+    
+  </entry>
   
   <entry>
     <title>测试用页面</title>
@@ -34,29 +57,6 @@
       <category term="Hexo" scheme="https://zuertx.tk/tags/Hexo/"/>
     
       <category term="NexT" scheme="https://zuertx.tk/tags/NexT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>常见科学上网客户端</title>
-    <link href="https://zuertx.tk/artcles/8fb83d1d.html"/>
-    <id>https://zuertx.tk/artcles/8fb83d1d.html</id>
-    <published>2020-06-13T04:55:25.000Z</published>
-    <updated>2020-06-27T09:55:03.422Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;常见科学上网客户端汇总&quot;&gt;常见科学上网客户端汇总&lt;/h1&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="ss" scheme="https://zuertx.tk/tags/ss/"/>
-    
-      <category term="ssr" scheme="https://zuertx.tk/tags/ssr/"/>
-    
-      <category term="v2ray" scheme="https://zuertx.tk/tags/v2ray/"/>
     
   </entry>
   
