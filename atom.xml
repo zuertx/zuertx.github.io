@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zuertx.tk/"/>
-  <updated>2020-07-08T09:20:37.697Z</updated>
+  <updated>2020-07-11T04:19:16.026Z</updated>
   <id>https://zuertx.tk/</id>
   
   <author>
@@ -17,18 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>软件清单</title>
+    <link href="https://zuertx.tk/artcles/cdafdfe8.html"/>
+    <id>https://zuertx.tk/artcles/cdafdfe8.html</id>
+    <published>2020-07-11T03:14:47.000Z</published>
+    <updated>2020-07-11T04:19:16.026Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;个人电脑上安装的软件&quot;&gt;个人电脑上安装的软件&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="软件" scheme="https://zuertx.tk/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+      <category term="软件" scheme="https://zuertx.tk/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>常见科学上网客户端</title>
     <link href="https://zuertx.tk/artcles/8fb83d1d.html"/>
     <id>https://zuertx.tk/artcles/8fb83d1d.html</id>
     <published>2020-06-13T04:55:25.000Z</published>
-    <updated>2020-07-08T09:20:37.697Z</updated>
+    <updated>2020-07-11T03:16:55.830Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;常见科学上网客户端汇总&quot;&gt;常见科学上网客户端汇总&lt;/h1&gt;
+      &lt;h1 id=&quot;常见科学上网客户端&quot;&gt;常见科学上网客户端&lt;/h1&gt;
     
     </summary>
     
+    
+      <category term="科学上网" scheme="https://zuertx.tk/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
     
       <category term="ss" scheme="https://zuertx.tk/tags/ss/"/>
