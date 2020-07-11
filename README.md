@@ -10,7 +10,7 @@ $ hexo -v
 hexo: 4.2.1
 hexo-cli: 3.1.0
 os: Windows_NT 10.0.19041 win32 x64
-node: 12.18.1
+node: 12.18.2
 v8: 7.8.279.23-node.38
 uv: 1.38.0
 zlib: 1.2.11
