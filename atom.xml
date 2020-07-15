@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zuertx.tk/"/>
-  <updated>2020-07-11T04:19:16.026Z</updated>
+  <updated>2020-07-13T11:53:17.968Z</updated>
   <id>https://zuertx.tk/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>密码管理器Keepass</title>
+    <link href="https://zuertx.tk/artcles/b30ff5b7.html"/>
+    <id>https://zuertx.tk/artcles/b30ff5b7.html</id>
+    <published>2020-07-13T10:35:02.000Z</published>
+    <updated>2020-07-13T11:53:17.968Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;一下载&quot;&gt;一、下载&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://keepass.info/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Keepass官网(Windows)&lt;/a&gt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="软件教程" scheme="https://zuertx.tk/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="keepass" scheme="https://zuertx.tk/tags/keepass/"/>
+    
+  </entry>
   
   <entry>
     <title>软件清单</title>
@@ -42,7 +71,7 @@
     <link href="https://zuertx.tk/artcles/8fb83d1d.html"/>
     <id>https://zuertx.tk/artcles/8fb83d1d.html</id>
     <published>2020-06-13T04:55:25.000Z</published>
-    <updated>2020-07-11T03:16:55.830Z</updated>
+    <updated>2020-07-15T11:29:31.399Z</updated>
     
     <summary type="html">
     

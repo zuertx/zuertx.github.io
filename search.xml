@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>测试用页面</title>
-    <url>/artcles/5d03bfac.html</url>
-    <content><![CDATA[<p>本博客使用的相关模块版本： <a id="more"></a> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">NexT: 7.8.0</span><br><span class="line"></span><br><span class="line">$ hexo -v</span><br><span class="line">hexo: 4.2.1</span><br><span class="line">hexo-cli: 3.1.0</span><br><span class="line">os: Windows_NT 10.0.19041 win32 x64</span><br><span class="line">node: 12.18.2</span><br><span class="line">v8: 7.8.279.23-node.38</span><br><span class="line">uv: 1.38.0</span><br><span class="line">zlib: 1.2.11</span><br><span class="line">brotli: 1.0.7</span><br><span class="line">ares: 1.16.0</span><br><span class="line">modules: 72</span><br><span class="line">nghttp2: 1.41.0</span><br><span class="line">napi: 6</span><br><span class="line">llhttp: 2.0.4</span><br><span class="line">http_parser: 2.9.3</span><br><span class="line">openssl: 1.1.1g</span><br><span class="line">cldr: 37.0</span><br><span class="line">icu: 67.1</span><br><span class="line">tz: 2019c</span><br><span class="line">unicode: 13.0</span><br></pre></td></tr></table></figure> 使用插件及版本： <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">+-- hexo@4.2.1</span><br><span class="line">+-- hexo-abbrlink@2.0.5</span><br><span class="line">+-- hexo-deployer-git@2.1.0</span><br><span class="line">+-- hexo-generator-archive@1.0.0</span><br><span class="line">+-- hexo-generator-baidu-sitemap@0.1.6</span><br><span class="line">+-- hexo-generator-category@1.0.0</span><br><span class="line">+-- hexo-generator-feed@2.2.0</span><br><span class="line">+-- hexo-generator-index-pin-top@0.2.2</span><br><span class="line">+-- hexo-generator-searchdb@1.3.0</span><br><span class="line">+-- hexo-generator-sitemap@2.0.0</span><br><span class="line">+-- hexo-generator-tag@1.0.0</span><br><span class="line">+-- hexo-git-backup@0.1.3</span><br><span class="line">+-- hexo-inject@1.0.0</span><br><span class="line">+-- hexo-related-popular-posts@4.0.0</span><br><span class="line">+-- hexo-renderer-ejs@1.0.0</span><br><span class="line">+-- hexo-renderer-pandoc@0.3.0</span><br><span class="line">+-- hexo-renderer-stylus@1.1.0</span><br><span class="line">+-- hexo-server@1.0.0</span><br><span class="line">&#96;-- hexo-symbols-count-time@0.7.1</span><br></pre></td></tr></table></figure></p>
-<p>LaTeX公式测试：</p>
-<p>如：质能方程<span class="math inline">\(e=mc^2\)</span></p>
-]]></content>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>NexT</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>常见科学上网客户端</title>
     <url>/artcles/8fb83d1d.html</url>
     <content><![CDATA[<h1 id="常见科学上网客户端">常见科学上网客户端</h1>
@@ -21,7 +9,7 @@
 <thead>
 <tr class="header">
 <th>客户端</th>
-<th>平台</th>
+<th>系统</th>
 <th>支持协议</th>
 </tr>
 </thead>
@@ -235,6 +223,59 @@
       </categories>
       <tags>
         <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试用页面</title>
+    <url>/artcles/5d03bfac.html</url>
+    <content><![CDATA[<p>本博客使用的相关模块版本： <a id="more"></a> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">NexT: 7.8.0</span><br><span class="line"></span><br><span class="line">$ hexo -v</span><br><span class="line">hexo: 4.2.1</span><br><span class="line">hexo-cli: 3.1.0</span><br><span class="line">os: Windows_NT 10.0.19041 win32 x64</span><br><span class="line">node: 12.18.2</span><br><span class="line">v8: 7.8.279.23-node.38</span><br><span class="line">uv: 1.38.0</span><br><span class="line">zlib: 1.2.11</span><br><span class="line">brotli: 1.0.7</span><br><span class="line">ares: 1.16.0</span><br><span class="line">modules: 72</span><br><span class="line">nghttp2: 1.41.0</span><br><span class="line">napi: 6</span><br><span class="line">llhttp: 2.0.4</span><br><span class="line">http_parser: 2.9.3</span><br><span class="line">openssl: 1.1.1g</span><br><span class="line">cldr: 37.0</span><br><span class="line">icu: 67.1</span><br><span class="line">tz: 2019c</span><br><span class="line">unicode: 13.0</span><br></pre></td></tr></table></figure> 使用插件及版本： <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">+-- hexo@4.2.1</span><br><span class="line">+-- hexo-abbrlink@2.0.5</span><br><span class="line">+-- hexo-deployer-git@2.1.0</span><br><span class="line">+-- hexo-generator-archive@1.0.0</span><br><span class="line">+-- hexo-generator-baidu-sitemap@0.1.6</span><br><span class="line">+-- hexo-generator-category@1.0.0</span><br><span class="line">+-- hexo-generator-feed@2.2.0</span><br><span class="line">+-- hexo-generator-index-pin-top@0.2.2</span><br><span class="line">+-- hexo-generator-searchdb@1.3.0</span><br><span class="line">+-- hexo-generator-sitemap@2.0.0</span><br><span class="line">+-- hexo-generator-tag@1.0.0</span><br><span class="line">+-- hexo-git-backup@0.1.3</span><br><span class="line">+-- hexo-inject@1.0.0</span><br><span class="line">+-- hexo-related-popular-posts@4.0.0</span><br><span class="line">+-- hexo-renderer-ejs@1.0.0</span><br><span class="line">+-- hexo-renderer-pandoc@0.3.0</span><br><span class="line">+-- hexo-renderer-stylus@1.1.0</span><br><span class="line">+-- hexo-server@1.0.0</span><br><span class="line">&#96;-- hexo-symbols-count-time@0.7.1</span><br></pre></td></tr></table></figure></p>
+<p>LaTeX公式测试：</p>
+<p>如：质能方程<span class="math inline">\(e=mc^2\)</span></p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>NexT</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>密码管理器Keepass</title>
+    <url>/artcles/b30ff5b7.html</url>
+    <content><![CDATA[<h1 id="一下载">一、下载</h1>
+<ul>
+<li><a href="https://keepass.info/" target="_blank" rel="noopener">Keepass官网(Windows)</a> 个人建议使用便携版</li>
+<li>Keepass2Android:<a href="https://play.google.com/store/apps/details?id=keepass2android.keepass2android" target="_blank" rel="noopener">Google Play</a></li>
+<li><a href="https://downloads.sourceforge.net/keepass/KeePass-2.45-Chinese_Simplified.zip" target="_blank" rel="noopener">简体中文语言包</a></li>
+<li>KeePassHttp-Connector:<a href="https://chrome.google.com/webstore/detail/dafgdjggglmmknipkhngniifhplpcldb" target="_blank" rel="noopener">Chrome</a> <a href="https://addons.mozilla.org/zh-CN/firefox/addon/keepasshttp-connector/" target="_blank" rel="noopener">Firefox</a></li>
+<li><a href="https://github.com/pfn/keepasshttp" target="_blank" rel="noopener">KeePassHttp</a></li>
+<li><a href="https://github.com/KeeTrayTOTP/KeeTrayTOTP" target="_blank" rel="noopener">KeeTrayTOTP</a></li>
+<li><a href="https://sourceforge.net/projects/webautotype/" target="_blank" rel="noopener">WebAutoType</a></li>
+<li><a href="https://sourceforge.net/projects/autotypesearch/" target="_blank" rel="noopener">AutoTypeSearch</a></li>
+<li><a href="https://github.com/mitchcapper/KPEntryTemplates" target="_blank" rel="noopener">KPEntryTemplates</a></li>
+<li><a href="https://sourceforge.net/projects/kpenhentryview/" target="_blank" rel="noopener">KPEnhancedEntryView</a></li>
+<li><a href="https://sourceforge.net/projects/kpsfupdatechecker/" target="_blank" rel="noopener">KPSourceForgeUpdateChecker</a></li>
+<li><a href="https://github.com/navossoc/KeePass-Yet-Another-Favicon-Downloader" target="_blank" rel="noopener">YetAnotherFaviconDownloader</a></li>
+</ul>
+<h1 id="二配置">二、配置</h1>
+<h2 id="中文语言包安装">1.中文语言包安装</h2>
+<ol type="1">
+<li>安装并运行keepass(安装时默认英文，无中文可选);</li>
+<li>点击主界面中的【View】→【Change Language】;</li>
+<li>点击【Open Folder】打开keepass的语言安装文件夹;</li>
+<li>解压下载的中文语言压缩包，将解压后的文件复制并粘贴到步骤3打开的文件夹中;</li>
+<li>重复步骤2，选择【Chinese_Simplified】，点击弹出框中的【是】重启keepass.</li>
+</ol>
+<h2 id="插件安装">2.插件安装</h2>
+<ol type="1">
+<li>在keepaass主界面中点击【工具】→【插件管理器】→【打开文件夹】；</li>
+<li>将下载的后缀为.plgx的文件复制并粘贴到步骤1打开的的文件夹中(zip包请先解压)；</li>
+<li>重启keepass.</li>
+</ol>
+]]></content>
+      <categories>
+        <category>软件教程</category>
+      </categories>
+      <tags>
+        <tag>keepass</tag>
       </tags>
   </entry>
 </search>
