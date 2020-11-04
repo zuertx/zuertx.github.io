@@ -1,6 +1,6 @@
 # [Zuertx's Blog](https://zuertx.tk)
 
-![](https://img.shields.io/badge/Hexo-4.2.1-7289da.svg)![](https://img.shields.io/badge/NexT-7.8.0-32afed.svg)
+![](https://img.shields.io/badge/Hexo-5.2.0-7289da.svg)![](https://img.shields.io/badge/NexT-8.0.2-32afed.svg)
 
 本博客使用[Hexo](https://github.com/hexojs/hexo)博客系统，选用[NexT](https://github.com/theme-next/hexo-theme-next)主题.
 
