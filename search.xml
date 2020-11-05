@@ -1,50 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>软件清单</title>
-    <url>/artcles/cdafdfe8.html</url>
-    <content><![CDATA[<h1 id="个人电脑上安装的软件">个人电脑上安装的软件</h1>
-<a id="more"></a>
-<ol type="1">
-<li>待办清单：Microsoft To Do</li>
-<li>办公设计：Microsoft 365 &amp; Office Tab</li>
-<li>浏览器：Microsoft Edge / Google Chrome &amp; Mozilla Firefox</li>
-<li>截图：<a href="https://zh.snipaste.com/">Snipaste</a> &amp; <a href="https://picpick.app/">PicPick</a> / <a href="https://www.faststone.org/FSCaptureDetail.htm">FastStone Capture</a></li>
-<li>Gif截图：<a href="https://github.com/NickeManarin/ScreenToGif">Screen2Gif</a></li>
-<li>视频播放：Potplayer</li>
-<li>音乐播放：<a href="https://github.com/listen1/listen1_desktop">Listen1</a> &amp; <a href="https://github.com/lyswhut/lx-music-desktop">洛雪音乐助手</a></li>
-<li>解压压缩：WinRAR &amp; 7-Zip</li>
-<li>Markdown：<a href="https://typora.io/">Typora</a></li>
-<li>下载：<a href="https://www.internetdownloadmanager.com/">IDM</a> / <a href="https://www.freedownloadmanager.org/zh/">FDM</a> / <a href="https://motrix.app/">Motrix</a> / <a href="https://xdown.org/">XDown</a> / <a href="https://subhra74.github.io/xdm/">XDM</a> / <a href="https://www.neatdownloadmanager.com/index.php/en/">NeatDM</a></li>
-<li>视频下载：<a href="https://github.com/soimort/you-get">you-get</a> / <a href="https://github.com/ytdl-org/youtube-dl">youtube-dl</a> / <a href="https://github.com/iawia002/annie">Annie</a></li>
-<li>BT下载：qBittorrent / BitComet</li>
-<li>视频录制：Bandicam</li>
-<li>卸载工具：Geek Uninstaller / UninstallTool</li>
-<li>注册表清理：CCleaner</li>
-<li>文件搜索：<a href="https://www.voidtools.com/">Everything</a> &amp; <a href="https://www.listary.com/download/beta/listary6/ListaryInstaller.exe">Listary</a> / Wox</li>
-<li>PDF阅读器：Adobe Acrobat</li>
-<li>标签式文件管理器：Clover</li>
-<li>文本识别：天若OCR / <a href="https://github.com/miaomiaosoft/PandaOCR">PandaOCR</a></li>
-<li>文件重命名：Renamer</li>
-<li>虚拟机：Vmware Workstation Pro / Hyper-V</li>
-<li>代码编辑器：VS Code / Sublime Text 3 / Notepad++ / Atom</li>
-<li>视频转码：FFmpeg &amp; 格式工厂</li>
-<li>音视频处理：Wondershare</li>
-<li>专业设计：Adobe全家桶</li>
-<li>远程控制：TeamViewer / ToDesk</li>
-<li>微软工具：<a href="https://github.com/microsoft/PowerToys">PowerToys</a></li>
-<li>思维导图：XMind</li>
-<li>密码管理：<a href="https://keepass.info/">Keepass</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>常见科学上网客户端</title>
     <url>/artcles/8fb83d1d.html</url>
     <content><![CDATA[<h1 id="常见科学上网客户端">常见科学上网客户端</h1>
@@ -247,6 +203,50 @@
       </categories>
       <tags>
         <tag>keepass</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>软件清单</title>
+    <url>/artcles/cdafdfe8.html</url>
+    <content><![CDATA[<h1 id="个人电脑上安装的软件">个人电脑上安装的软件</h1>
+<a id="more"></a>
+<ol type="1">
+<li>待办清单：Microsoft To Do</li>
+<li>办公设计：Microsoft 365 &amp; Office Tab</li>
+<li>浏览器：Microsoft Edge / Google Chrome &amp; Mozilla Firefox</li>
+<li>截图：<a href="https://zh.snipaste.com/">Snipaste</a> &amp; <a href="https://picpick.app/">PicPick</a> / <a href="https://www.faststone.org/FSCaptureDetail.htm">FastStone Capture</a></li>
+<li>Gif截图：<a href="https://github.com/NickeManarin/ScreenToGif">Screen2Gif</a></li>
+<li>视频播放：Potplayer</li>
+<li>音乐播放：<a href="https://github.com/listen1/listen1_desktop">Listen1</a> &amp; <a href="https://github.com/lyswhut/lx-music-desktop">洛雪音乐助手</a></li>
+<li>解压压缩：WinRAR &amp; 7-Zip</li>
+<li>Markdown：<a href="https://typora.io/">Typora</a></li>
+<li>下载：<a href="https://www.internetdownloadmanager.com/">IDM</a> / <a href="https://www.freedownloadmanager.org/zh/">FDM</a> / <a href="https://motrix.app/">Motrix</a> / <a href="https://xdown.org/">XDown</a> / <a href="https://subhra74.github.io/xdm/">XDM</a> / <a href="https://www.neatdownloadmanager.com/index.php/en/">NeatDM</a></li>
+<li>视频下载：<a href="https://github.com/soimort/you-get">you-get</a> / <a href="https://github.com/ytdl-org/youtube-dl">youtube-dl</a> / <a href="https://github.com/iawia002/annie">Annie</a></li>
+<li>BT下载：qBittorrent / BitComet</li>
+<li>视频录制：Bandicam</li>
+<li>卸载工具：Geek Uninstaller / UninstallTool</li>
+<li>注册表清理：CCleaner</li>
+<li>文件搜索：<a href="https://www.voidtools.com/">Everything</a> &amp; <a href="https://www.listary.com/download/beta/listary6/ListaryInstaller.exe">Listary</a> / Wox</li>
+<li>PDF阅读器：Adobe Acrobat</li>
+<li>标签式文件管理器：Clover</li>
+<li>文本识别：天若OCR / <a href="https://github.com/miaomiaosoft/PandaOCR">PandaOCR</a></li>
+<li>文件重命名：Renamer</li>
+<li>虚拟机：Vmware Workstation Pro / Hyper-V</li>
+<li>代码编辑器：VS Code / Sublime Text 3 / Notepad++ / Atom</li>
+<li>视频转码：FFmpeg &amp; 格式工厂</li>
+<li>音视频处理：Wondershare</li>
+<li>专业设计：Adobe全家桶</li>
+<li>远程控制：TeamViewer / ToDesk</li>
+<li>微软工具：<a href="https://github.com/microsoft/PowerToys">PowerToys</a></li>
+<li>思维导图：XMind</li>
+<li>密码管理：<a href="https://keepass.info/">Keepass</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
       </tags>
   </entry>
   <entry>
