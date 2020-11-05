@@ -36,7 +36,6 @@ hexo-site@0.0.0 F:\GitHub\zuertx.tk
 +-- hexo@5.2.0
 +-- hexo-abbrlink@2.2.1
 +-- hexo-deployer-git@2.1.0
-+-- hexo-filter-emoji@2.2.1
 +-- hexo-generator-archive@1.0.0
 +-- hexo-generator-category@1.0.0
 +-- hexo-generator-index-pin-top@0.2.2
@@ -44,7 +43,6 @@ hexo-site@0.0.0 F:\GitHub\zuertx.tk
 +-- hexo-generator-tag@1.0.0
 +-- hexo-leancloud-counter-security@1.5.0
 +-- hexo-next-fireworks@1.0.2
-+-- hexo-related-popular-posts@5.0.1
 +-- hexo-renderer-ejs@1.0.0
 +-- hexo-renderer-pandoc@0.3.0
 +-- hexo-renderer-stylus@2.0.1
