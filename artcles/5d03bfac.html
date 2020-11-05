@@ -802,7 +802,6 @@ show_date_time();
 
 
       
-    <div class="comments" id="minivaline-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -1004,61 +1003,6 @@ document.addEventListener('pjax:success', () => {
 
   
 
-
-<script>
-loadComments(document.querySelector('#minivaline-comments'), function(){
-	getScript('https://cdn.jsdelivr.net/npm/minivaline@4/dist/MiniValine.min.js', function(){
-		new MiniValine({
-			el: '#minivaline-comments',
-			pathname: '/artcles/5d03bfac.html',
-			appId: 'cgLLDTATJbCSPO2wwFx64gRE-MdYXbMMI',
-			appKey: 'mYvRXdiDe9Gz3GdRrjRCMXRw',
-			mode: 'xCss',
-			placeholder: '快来评论吧~',
-			md: true,
-			math: true,
-			friends: ["926fd0b7cbf751a112bfc61bbbdfe15b",],
-			master: ["b7516c601090ef40caa0b6f8df26e13a","11971b6c60c2bf295743d7b7f2b90e63",],
-			tagMeta: ["管理员","小伙伴","新朋友",],
-			adminEmailMd5: 'b7516c601090ef40caa0b6f8df26e13a',
-			maxNest: 6,
-			pageSize: 6,
-			emoticonUrl: ["https://cdn.jsdelivr.net/npm/alus@latest","https://cdn.jsdelivr.net/gh/MiniValine/qq@latest","https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@latest","https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest","https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest","https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest",],
-		});
-	}, window.MiniValine);
-});
-function getScript(url, callback, condition) {
-	if (condition) {
-	  callback();
-	} else {
-	  var script = document.createElement('script');
-	  script.onload = script.onreadystatechange = function(_, isAbort) {
-		if (isAbort || !script.readyState || /loaded|complete/.test(script.readyState)) {
-		  script.onload = script.onreadystatechange = null;
-		  script = undefined;
-		  if (!isAbort && callback) setTimeout(callback, 0);
-		}
-	  };
-	  script.src = url;
-	  document.head.appendChild(script);
-	}
-}
-function loadComments(element, callback) {
-    if (!false || !element) {
-      callback();
-      return;
-    }
-    let intersectionObserver = new IntersectionObserver((entries, observer) => {
-      let entry = entries[0];
-      if (entry.isIntersecting) {
-        callback();
-        observer.disconnect();
-      }
-    });
-    intersectionObserver.observe(element);
-    return intersectionObserver;
-}
-</script>
 
 
 
