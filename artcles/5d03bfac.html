@@ -693,13 +693,6 @@ show_date_time();
       </span>
 
   
-    <span id="/artcles/5d03bfac.html" class="post-meta-item leancloud_visitors" data-flag-title="测试用页面" title="阅读次数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-eye"></i>
-      </span>
-      <span class="post-meta-item-text">阅读次数：</span>
-      <span class="leancloud-visitors-count"></span>
-    </span>
 
     <span class="post-meta-divider">|</span>
     <i class="fas fa-thumbtack"></i>
@@ -809,6 +802,7 @@ show_date_time();
 
 
       
+    <div class="comments" id="minivaline-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -957,97 +951,6 @@ document.addEventListener('pjax:success', () => {
 
 
 
-<script data-pjax>
-  (function() {
-    function leancloudSelector(url) {
-      url = encodeURI(url);
-      return document.getElementById(url).querySelector('.leancloud-visitors-count');
-    }
-
-    function addCount(Counter) {
-      const visitors = document.querySelector('.leancloud_visitors');
-      const url = decodeURI(visitors.id);
-      const title = visitors.dataset.flagTitle;
-
-      Counter('get', '/classes/Counter?where=' + encodeURIComponent(JSON.stringify({ url })))
-        .then(response => response.json())
-        .then(({ results }) => {
-          if (results.length > 0) {
-            const counter = results[0];
-            leancloudSelector(url).innerText = counter.time + 1;
-            Counter('put', '/classes/Counter/' + counter.objectId, { time: { '__op': 'Increment', 'amount': 1 } })
-              .catch(error => {
-                console.error('Failed to save visitor count', error);
-              });
-          } else {
-              Counter('post', '/classes/Counter', { title, url, time: 1 })
-                .then(response => response.json())
-                .then(() => {
-                  leancloudSelector(url).innerText = 1;
-                })
-                .catch(error => {
-                  console.error('Failed to create', error);
-                });
-          }
-        })
-        .catch(error => {
-          console.error('LeanCloud Counter Error', error);
-        });
-    }
-
-    function showTime(Counter) {
-      const visitors = document.querySelectorAll('.leancloud_visitors');
-      const entries = [...visitors].map(element => {
-        return decodeURI(element.id);
-      });
-
-      Counter('get', '/classes/Counter?where=' + encodeURIComponent(JSON.stringify({ url: { '$in': entries } })))
-        .then(response => response.json())
-        .then(({ results }) => {
-          for (let url of entries) {
-            const target = results.find(item => item.url === url);
-            leancloudSelector(url).innerText = target ? target.time : 0;
-          }
-        })
-        .catch(error => {
-          console.error('LeanCloud Counter Error', error);
-        });
-    }
-
-    const { app_id, app_key, server_url } = {"enable":true,"app_id":"uPwqdIGKIs5KaQFAzrAxo8OP-MdYXbMMI","app_key":"Dwqgq0Rxqoybzl0Foml6um6X","server_url":null,"security":false};
-    function fetchData(api_server) {
-      const Counter = (method, url, data) => {
-        return fetch(`${api_server}/1.1${url}`, {
-          method,
-          headers: {
-            'X-LC-Id'     : app_id,
-            'X-LC-Key'    : app_key,
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(data)
-        });
-      };
-      if (CONFIG.page.isPost) {
-        if (CONFIG.hostname !== location.hostname) return;
-        addCount(Counter);
-      } else if (document.querySelectorAll('.post-title-link').length >= 1) {
-        showTime(Counter);
-      }
-    }
-
-    const api_server = app_id.slice(-9) === '-MdYXbMMI' ? `https://${app_id.slice(0, 8).toLowerCase()}.api.lncldglobal.com` : server_url;
-
-    if (api_server) {
-      fetchData(api_server);
-    } else {
-      fetch('https://app-router.leancloud.cn/2/route?appId=' + app_id)
-        .then(response => response.json())
-        .then(({ api_server }) => {
-          fetchData('https://' + api_server);
-        });
-    }
-  })();
-</script>
 
 
     <div class="pjax">
@@ -1101,6 +1004,61 @@ document.addEventListener('pjax:success', () => {
 
   
 
+
+<script>
+loadComments(document.querySelector('#minivaline-comments'), function(){
+	getScript('https://cdn.jsdelivr.net/npm/minivaline@4/dist/MiniValine.min.js', function(){
+		new MiniValine({
+			el: '#minivaline-comments',
+			pathname: '/artcles/5d03bfac.html',
+			appId: 'cgLLDTATJbCSPO2wwFx64gRE-MdYXbMMI',
+			appKey: 'mYvRXdiDe9Gz3GdRrjRCMXRw',
+			mode: 'xCss',
+			placeholder: '快来评论吧~',
+			md: true,
+			math: true,
+			friends: ["926fd0b7cbf751a112bfc61bbbdfe15b",],
+			master: ["b7516c601090ef40caa0b6f8df26e13a","11971b6c60c2bf295743d7b7f2b90e63",],
+			tagMeta: ["管理员","小伙伴","新朋友",],
+			adminEmailMd5: 'b7516c601090ef40caa0b6f8df26e13a',
+			maxNest: 6,
+			pageSize: 6,
+			emoticonUrl: ["https://cdn.jsdelivr.net/npm/alus@latest","https://cdn.jsdelivr.net/gh/MiniValine/qq@latest","https://cdn.jsdelivr.net/gh/MiniValine/Bilibilis@latest","https://cdn.jsdelivr.net/gh/MiniValine/tieba@latest","https://cdn.jsdelivr.net/gh/MiniValine/twemoji@latest","https://cdn.jsdelivr.net/gh/MiniValine/weibo@latest",],
+		});
+	}, window.MiniValine);
+});
+function getScript(url, callback, condition) {
+	if (condition) {
+	  callback();
+	} else {
+	  var script = document.createElement('script');
+	  script.onload = script.onreadystatechange = function(_, isAbort) {
+		if (isAbort || !script.readyState || /loaded|complete/.test(script.readyState)) {
+		  script.onload = script.onreadystatechange = null;
+		  script = undefined;
+		  if (!isAbort && callback) setTimeout(callback, 0);
+		}
+	  };
+	  script.src = url;
+	  document.head.appendChild(script);
+	}
+}
+function loadComments(element, callback) {
+    if (!false || !element) {
+      callback();
+      return;
+    }
+    let intersectionObserver = new IntersectionObserver((entries, observer) => {
+      let entry = entries[0];
+      if (entry.isIntersecting) {
+        callback();
+        observer.disconnect();
+      }
+    });
+    intersectionObserver.observe(element);
+    return intersectionObserver;
+}
+</script>
 
 
 
