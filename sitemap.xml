@@ -60,6 +60,13 @@
 
   
   <url>
+    <loc>https://zuertx.tk/tags/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2020-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zuertx.tk/tags/ss/</loc>
     <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
@@ -81,6 +88,13 @@
   </url>
   
   <url>
+    <loc>https://zuertx.tk/tags/keepass/</loc>
+    <lastmod>2020-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zuertx.tk/tags/Hexo/</loc>
     <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
@@ -94,31 +108,17 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://zuertx.tk/tags/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2020-11-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zuertx.tk/tags/keepass/</loc>
-    <lastmod>2020-11-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   
   <url>
-    <loc>https://zuertx.tk/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
+    <loc>https://zuertx.tk/categories/%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zuertx.tk/categories/%E8%BD%AF%E4%BB%B6/</loc>
+    <loc>https://zuertx.tk/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
     <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
