@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zuertx.tk/tags/index.html</loc>
+    
+    <lastmod>2020-11-05</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zuertx.tk/about/index.html</loc>
     
     <lastmod>2020-11-05</lastmod>
@@ -10,13 +17,6 @@
   
   <url>
     <loc>https://zuertx.tk/categories/index.html</loc>
-    
-    <lastmod>2020-11-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zuertx.tk/tags/index.html</loc>
     
     <lastmod>2020-11-05</lastmod>
     
@@ -88,13 +88,6 @@
   </url>
   
   <url>
-    <loc>https://zuertx.tk/tags/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2020-11-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zuertx.tk/tags/Hexo/</loc>
     <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
@@ -103,6 +96,13 @@
   
   <url>
     <loc>https://zuertx.tk/tags/NexT/</loc>
+    <lastmod>2020-11-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zuertx.tk/tags/%E8%BD%AF%E4%BB%B6/</loc>
     <lastmod>2020-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
