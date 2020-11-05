@@ -32,17 +32,20 @@ unicode: 13.0
 ```
 使用插件及版本：
 ```
-hexo-site@0.0.0 F:\GitHub\zuertx.tk
+hexo-site@0.0.0 F:\zuertx.tk
 +-- hexo@5.2.0
 +-- hexo-abbrlink@2.2.1
 +-- hexo-deployer-git@2.1.0
 +-- hexo-generator-archive@1.0.0
 +-- hexo-generator-category@1.0.0
-+-- hexo-generator-index-pin-top@0.2.2
++-- hexo-generator-feed@3.0.0
++-- hexo-generator-index@2.0.0
 +-- hexo-generator-searchdb@1.3.3
++-- hexo-generator-sitemap@2.1.0
 +-- hexo-generator-tag@1.0.0
 +-- hexo-leancloud-counter-security@1.5.0
 +-- hexo-next-fireworks@1.0.2
++-- hexo-next-minivaline@4.0.0
 +-- hexo-renderer-ejs@1.0.0
 +-- hexo-renderer-pandoc@0.3.0
 +-- hexo-renderer-stylus@2.0.1
