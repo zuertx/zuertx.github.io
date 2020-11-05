@@ -43,7 +43,7 @@ hexo-site@0.0.0 F:\GitHub\zuertx.tk
 +-- hexo-generator-searchdb@1.3.3
 +-- hexo-generator-tag@1.0.0
 +-- hexo-leancloud-counter-security@1.5.0
-+-- hexo-next-fireworks@1.0.2 (github:next-theme/hexo-next-fireworks#1942667350abfff6f27f632eba4c80929366f9a9)
++-- hexo-next-fireworks@1.0.2
 +-- hexo-related-popular-posts@5.0.1
 +-- hexo-renderer-ejs@1.0.0
 +-- hexo-renderer-pandoc@0.3.0
