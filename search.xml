@@ -164,48 +164,6 @@
       </tags>
   </entry>
   <entry>
-    <title>密码管理器Keepass</title>
-    <url>/artcles/b30ff5b7.html</url>
-    <content><![CDATA[<h1 id="一下载">一、下载</h1>
-<a id="more"></a>
-<ul>
-<li><a href="https://keepass.info/">Keepass官网(Windows)</a> 个人建议使用便携版</li>
-<li>Keepass2Android:<a href="https://play.google.com/store/apps/details?id=keepass2android.keepass2android">Google Play</a></li>
-<li><a href="https://downloads.sourceforge.net/keepass/KeePass-2.45-Chinese_Simplified.zip">简体中文语言包</a></li>
-<li>KeePassHttp-Connector:<a href="https://chrome.google.com/webstore/detail/dafgdjggglmmknipkhngniifhplpcldb">Chrome</a> <a href="https://addons.mozilla.org/zh-CN/firefox/addon/keepasshttp-connector/">Firefox</a></li>
-<li><a href="https://github.com/pfn/keepasshttp">KeePassHttp</a></li>
-<li><a href="https://github.com/KeeTrayTOTP/KeeTrayTOTP">KeeTrayTOTP</a></li>
-<li><a href="https://sourceforge.net/projects/webautotype/">WebAutoType</a></li>
-<li><a href="https://sourceforge.net/projects/autotypesearch/">AutoTypeSearch</a></li>
-<li><a href="https://github.com/mitchcapper/KPEntryTemplates">KPEntryTemplates</a></li>
-<li><a href="https://sourceforge.net/projects/kpenhentryview/">KPEnhancedEntryView</a></li>
-<li><a href="https://sourceforge.net/projects/kpsfupdatechecker/">KPSourceForgeUpdateChecker</a></li>
-<li><a href="https://github.com/navossoc/KeePass-Yet-Another-Favicon-Downloader">YetAnotherFaviconDownloader</a></li>
-</ul>
-<h1 id="二配置">二、配置</h1>
-<h2 id="中文语言包安装">1.中文语言包安装</h2>
-<ol type="1">
-<li>安装并运行keepass(安装时默认英文，无中文可选);</li>
-<li>点击主界面中的【View】→【Change Language】;</li>
-<li>点击【Open Folder】打开keepass的语言安装文件夹;</li>
-<li>解压下载的中文语言压缩包，将解压后的文件复制并粘贴到步骤3打开的文件夹中;</li>
-<li>重复步骤2，选择【Chinese_Simplified】，点击弹出框中的【是】重启keepass.</li>
-</ol>
-<h2 id="插件安装">2.插件安装</h2>
-<ol type="1">
-<li>在keepaass主界面中点击【工具】→【插件管理器】→【打开文件夹】；</li>
-<li>将下载的后缀为.plgx的文件复制并粘贴到步骤1打开的的文件夹中(zip包请先解压)；</li>
-<li>重启keepass.</li>
-</ol>
-]]></content>
-      <categories>
-        <category>软件教程</category>
-      </categories>
-      <tags>
-        <tag>keepass</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>软件清单</title>
     <url>/artcles/cdafdfe8.html</url>
     <content><![CDATA[<h1 id="个人电脑上安装的软件">个人电脑上安装的软件</h1>
@@ -247,6 +205,48 @@
       </categories>
       <tags>
         <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>密码管理器Keepass</title>
+    <url>/artcles/b30ff5b7.html</url>
+    <content><![CDATA[<h1 id="一下载">一、下载</h1>
+<a id="more"></a>
+<ul>
+<li><a href="https://keepass.info/">Keepass官网(Windows)</a> 个人建议使用便携版</li>
+<li>Keepass2Android:<a href="https://play.google.com/store/apps/details?id=keepass2android.keepass2android">Google Play</a></li>
+<li><a href="https://downloads.sourceforge.net/keepass/KeePass-2.45-Chinese_Simplified.zip">简体中文语言包</a></li>
+<li>KeePassHttp-Connector:<a href="https://chrome.google.com/webstore/detail/dafgdjggglmmknipkhngniifhplpcldb">Chrome</a> <a href="https://addons.mozilla.org/zh-CN/firefox/addon/keepasshttp-connector/">Firefox</a></li>
+<li><a href="https://github.com/pfn/keepasshttp">KeePassHttp</a></li>
+<li><a href="https://github.com/KeeTrayTOTP/KeeTrayTOTP">KeeTrayTOTP</a></li>
+<li><a href="https://sourceforge.net/projects/webautotype/">WebAutoType</a></li>
+<li><a href="https://sourceforge.net/projects/autotypesearch/">AutoTypeSearch</a></li>
+<li><a href="https://github.com/mitchcapper/KPEntryTemplates">KPEntryTemplates</a></li>
+<li><a href="https://sourceforge.net/projects/kpenhentryview/">KPEnhancedEntryView</a></li>
+<li><a href="https://sourceforge.net/projects/kpsfupdatechecker/">KPSourceForgeUpdateChecker</a></li>
+<li><a href="https://github.com/navossoc/KeePass-Yet-Another-Favicon-Downloader">YetAnotherFaviconDownloader</a></li>
+</ul>
+<h1 id="二配置">二、配置</h1>
+<h2 id="中文语言包安装">1.中文语言包安装</h2>
+<ol type="1">
+<li>安装并运行keepass(安装时默认英文，无中文可选);</li>
+<li>点击主界面中的【View】→【Change Language】;</li>
+<li>点击【Open Folder】打开keepass的语言安装文件夹;</li>
+<li>解压下载的中文语言压缩包，将解压后的文件复制并粘贴到步骤3打开的文件夹中;</li>
+<li>重复步骤2，选择【Chinese_Simplified】，点击弹出框中的【是】重启keepass.</li>
+</ol>
+<h2 id="插件安装">2.插件安装</h2>
+<ol type="1">
+<li>在keepaass主界面中点击【工具】→【插件管理器】→【打开文件夹】；</li>
+<li>将下载的后缀为.plgx的文件复制并粘贴到步骤1打开的的文件夹中(zip包请先解压)；</li>
+<li>重启keepass.</li>
+</ol>
+]]></content>
+      <categories>
+        <category>软件教程</category>
+      </categories>
+      <tags>
+        <tag>keepass</tag>
       </tags>
   </entry>
   <entry>
