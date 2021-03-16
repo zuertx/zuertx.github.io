@@ -7,14 +7,14 @@
 本博客使用的相关模块版本：
 ```
 ========================================
-NexT version 8.0.2
+NexT version 8.2.2
 Documentation: https://theme-next.js.org
 ========================================
 hexo: 5.2.0
 hexo-cli: 4.2.0
 os: Windows_NT 10.0.19042 win32 x64
-node: 14.15.0
-v8: 8.4.371.19-node.17
+node: 14.16.0
+v8: 8.4.371.19-node.18
 uv: 1.40.0
 zlib: 1.2.11
 brotli: 1.0.9
@@ -23,7 +23,7 @@ modules: 83
 nghttp2: 1.41.0
 napi: 7
 llhttp: 2.1.3
-openssl: 1.1.1g
+openssl: 1.1.1j
 cldr: 37.0
 icu: 67.1
 tz: 2020a
@@ -31,8 +31,7 @@ unicode: 13.0
 ```
 使用插件及版本：
 ```
-hexo-site@0.0.0 F:\zuertx.tk
-+-- hexo@5.2.0
+hexo-site@0.0.0 F:\GitHub\zuertx.tk
 +-- hexo-abbrlink@2.2.1
 +-- hexo-deployer-git@2.1.0
 +-- hexo-generator-archive@1.0.0
@@ -43,12 +42,13 @@ hexo-site@0.0.0 F:\zuertx.tk
 +-- hexo-generator-sitemap@2.1.0
 +-- hexo-generator-tag@1.0.0
 +-- hexo-leancloud-counter-security@1.5.0
-+-- hexo-next-fireworks@1.0.2
-+-- hexo-next-minivaline@4.0.0
++-- hexo-next-fireworks
++-- hexo-next-minivaline@5.5.0
 +-- hexo-renderer-ejs@1.0.0
 +-- hexo-renderer-pandoc@0.3.0
 +-- hexo-renderer-stylus@2.0.1
 +-- hexo-server@2.0.0
-+-- hexo-theme-next@8.0.2
-`-- hexo-word-counter@0.0.2
++-- hexo-theme-next@8.2.2
++-- hexo-word-counter@0.0.2
+`-- hexo@5.2.0
 ```
