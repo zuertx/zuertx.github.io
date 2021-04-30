@@ -1,4 +1,4 @@
-# [Zuertx's Blog](https://zuertx.tk)
+# [Rexp1ty's Blog](https://zuertx.tk)
 
 ![](https://img.shields.io/badge/Hexo-5.2.0-7289da.svg)![](https://img.shields.io/badge/NexT-8.3.0-32afed.svg)
 
@@ -13,7 +13,7 @@ Documentation: https://theme-next.js.org
 hexo: 5.2.0
 hexo-cli: 4.2.0
 os: Windows_NT 10.0.19042 win32 x64
-node: 14.16.0
+node: 13.14.0
 v8: 8.4.371.19-node.18
 uv: 1.40.0
 zlib: 1.2.11
